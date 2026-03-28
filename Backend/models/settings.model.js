@@ -38,7 +38,4 @@ const settingsSchema = new mongoose.Schema({
 
 }, { timestamps: true });
 
-// Ensure one settings per user
-settingsSchema.index({ userId: 1 }, { unique: true });
-
 export default mongoose.model("Settings", settingsSchema);

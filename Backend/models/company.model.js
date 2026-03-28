@@ -1,4 +1,3 @@
-// models/company.model.js
 import mongoose from "mongoose";
 
 const companySchema = new mongoose.Schema({
@@ -28,8 +27,5 @@ const companySchema = new mongoose.Schema({
   }]
 
 }, { timestamps: true });
-
-// Index for fast search
-companySchema.index({ name: 1 });
 
 export default mongoose.model("Company", companySchema);

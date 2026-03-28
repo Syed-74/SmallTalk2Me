@@ -1,4 +1,5 @@
-import { Play, MicOff, Zap, Monitor, Clock, ChevronRight, BarChart3, Users, Briefcase, MessageSquare,motion  } from 'lucide-react';
+import { Play, MicOff, Zap, Monitor, Clock, ChevronRight, BarChart3, Users, Briefcase, MessageSquare } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { audioService } from '../services/audioService';
 import { io } from 'socket.io-client';
 import Accordion from '../components/Accordion';
