@@ -15,6 +15,7 @@ export const uploadResume = async (req, res) => {
 };
 
 export const getMyResume = async (req, res) => {
+  console.log(req.user.id)
   try {
     const resume = await Resume.findOne({ userId: req.user.id });
     res.json(resume);

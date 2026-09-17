@@ -6,6 +6,7 @@ export const generateAnswer = async (req, res) => {
     const { questionId, questionText, aiProvider, context } = req.body;
 
     const aiResponse = await generateAIAnswer(questionText, aiProvider, context);
+    console.log(aiResponse)
 
     const answer = await Answer.create({
       questionId,
@@ -13,6 +14,7 @@ export const generateAnswer = async (req, res) => {
       rawAnswer: aiResponse,
       formattedAnswer: aiResponse // later optimize
     });
+    console.log(answer)
 
     res.json(answer);
 
