@@ -1,7 +1,42 @@
 import React from 'react'
 
 const Hello = () => {
+    const [name, setName] = useState('')
+    const [age, setAge] = useState('')
+    const [gender, setGender] = useState('')
+    const [country, setCountry] = useState('')
+    const [city, setCity] = useState('')
+    const [state, setState] = useState('')
+    const [zip, setZip] = useState('')
+    const [address, setAddress] = useState('')
+    const [phone, setPhone] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [confirmPassword, setConfirmPassword] = useState('')
+    const [profilePicture, setProfilePicture] = useState('')
+    const [bio, setBio] = useState('')
+    const [website, setWebsite] = useState('')
+    const [socialMedia, setSocialMedia] = useState('')
+    const [interests, setInterests] = useState('')
+    const [hobbies, setHobbies] = useState('')
+    const [skills, setSkills] = useState('')
+    const [experience, setExperience] = useState('')
+    const [education, setEducation] = useState('')
+    const [certifications, setCertifications] = useState('')
+    const [languages, setLanguages] = useState('')
+    const [publications, setPublications] = useState('')
+    const [projects, setProjects] = useState('')
+    const [awards, setAwards] = useState('')
+    const [volunteering, setVolunteering] = useState('')
+    const [certifications, setCertifications] = useState('')
+    const [languages, setLanguages] = useState('')
+    const [publications, setPublications] = useState('')
+    const [projects, setProjects] = useState('')
+    const [awards, setAwards] = useState('')
+    const [volunteering, setVolunteering] = useState('')
+    
   return (
+
     <div>
       <h1>Hello</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat adipisci numquam error explicabo nihil repellendus cumque deleniti doloremque? Tempora itaque quisquam molestias repellat. Aliquid, saepe.</p>
